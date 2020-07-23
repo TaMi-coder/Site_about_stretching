@@ -160,11 +160,12 @@ body {
   text-align: center;
   margin: 10px 0;
 }
-.wrapper {
+.wrapper,
+.gallery {
   font-size: 20px;
   line-height: 30px;
   width: 1200px;
-  margin: 0 auto;
+  margin: 0 auto 10px;
 }
 h1,
 h2,
@@ -182,8 +183,12 @@ h4 {
   height: 400px;
 }
 span {
-  font-weight: 800;
-  color: rgb(88, 13, 209);
+  font-weight: 900;
+  color: rgb(8, 7, 8);
+}
+.wrapper p,
+.gallery p {
+  text-indent: 25px;
 }
 ul {
   list-style-type: square;
@@ -198,7 +203,6 @@ blockquote {
 .wrapper a:visited {
   color: blueviolet;
 }
-
 .wrapper a:hover {
   color: white;
 }
@@ -212,14 +216,8 @@ blockquote {
 .footer a img {
   margin: 10px 15px 0;
 }
-.gallery {
-  font-size: 20px;
-  line-height: 30px;
-  width: 1200px;
-  margin: 0 auto 10px;
-}
 .single_img {
-  width: 590px;
+  width: 600px;
   height: 400px;
   display: block;
   margin: 0 auto;
