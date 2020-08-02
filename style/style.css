@@ -252,12 +252,11 @@ blockquote {
 .img_wrapper:hover .signature {
   display: initial;
   position: absolute;
-  width: 100%;
   height: 40px;
   top: 50%;
   margin-top: -20px;
-  left: 50%;
-  margin-left: -300px;
+  left: 0;
+  right: 0;
   background-color: rgba(204, 164, 214, 0.5);
   text-align: center;
 }
